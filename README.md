@@ -1,15 +1,8 @@
-# New rotor engine description/model
+# Y.Kirsenko public repository
 
-# Installation
+# Projects
 
-Installation can be done by one of two ways below:
-1. Clone repository
-2. Copy index.html and tst.js from new_engine folder to local folder
-
-# Execution
-
-Open index.html in browser.
-
-Should work in Firefox, Chrome, IE.   
+##  New engine
+    Contains digital model of symmetric non-inertial rotor engine
 
 
