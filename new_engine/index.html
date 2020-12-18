@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="tst.js"></script> 
+</head>
+<body>
+<button id="btn11" onclick="magnify(1.2);">++</button>
+<button id="btn12" onclick="magnify(0.8333333333);">--</button>
+<input id="chbox1" type="checkbox"  value="1" >p1</input>
+<input id="chbox3" type="checkbox"  value="1" checked="checked" >fill</input>
+<button id="btn6" onclick="clearLog();cleardraw();">clear</button>
+<button id="btn1" onclick="vrx1=[];rotation=0;drawFigures(true,true);drawFigures();">draw</button>
+<button id="btn2" onclick="rotation++;drawFigures();">+</button>
+<button id="btn3" onclick="rotation--;drawFigures();">-</button>
+<button id="btn4" onclick="if(tmr==0)tmr=setInterval(rotate,10);">start</button>
+<button id="btn5" onclick="clearInterval(tmr);tmr=0;">stop</button>
+<input id="pstart" color="#AAAAAA" type="text" value="-1">pstart</input>
+<input id="pstop" color="#AAAAAA" type="text" value="50">pstop</input>
+<input id="ang"  type="text" value="0">Angle</input>
+<input id="mag"  type="text" value="0">scale</input>
+<br>
+<input id="axrad" type="text"  value="30">Center,%</input>&nbsp&nbsp
+<input id="clip1" type="text" value="1">Clip,%</input>
+<br>
+
+<canvas id="myCanvas" width="330" height="210"  style="border:1px solid #000000;"></canvas>
+<br>
+<table><tr><td><div id="Fig1"></div></td><td><div id="Fig2"></div></td></tr></table>
+<script>
+magnify(2.4);
+</script>
+</body>
+</html>
