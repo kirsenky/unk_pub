@@ -2,14 +2,15 @@
 
 # Installation
 
-Installation can be done by one of two ways below:
-1. Clone repository
-2. Copy index.html and tst.js from new_engine folder to local folder
+1. Download code
+2. Put index.html and tst.js to one folder
 
 # Execution
 
-Open index.html in browser.
+Open file index.html in one of listed below browsers.
 
-Should work in Firefox, Chrome, IE.   
+Should work in Firefox, Chrome, IE.
+
+Click on button 'start' when form was shown.
 
 
